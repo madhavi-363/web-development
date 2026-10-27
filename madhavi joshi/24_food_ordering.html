@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>online food ordering</title>
+  </head>
+  <body>
+    <header>
+      <h1>food express</h1>
+      <nav>
+        <a href="#home">home</a>
+        <a href="#menu">menu</a>
+        <a href="order">order</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+    <hr />
+    <section id="home">
+      <h2>welcome to food express</h2>
+      <p>
+        order your favourite food online and enjoy testy meals deliverd directly
+        to your home.
+      </p>
+    </section>
+    <hr />
+    <section id="menu">
+      <h2>our menu</h2>
+      <table border="1" cellpadding="10">
+        <tr>
+          <th>food</th>
+          <th>category</th>
+          <th>price</th>
+          <th>available</th>
+        </tr>
+        <tr>
+          <td>pizza</td>
+          <td>italian</td>
+          <td>435</td>
+          <td>available</td>
+        </tr>
+        <tr>
+          <td>burger</td>
+          <td>fast food</td>
+          <td>123</td>
+          <td>available</td>
+        </tr>
+        <tr>
+          <td>paneer tikka</td>
+          <td>north inadian</td>
+          <td>245</td>
+          <td>available</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+    <section id="order">
+      <h2>place your order</h2>
+      <form>
+        <lable>name:</lable>
+        <input type="text" required />
+        <br /><br />
+        <lable>mobile no:</lable>
+        <input type="tel" required />
+        <br /><br />
+        <lable>select food:</lable>
+        <select>
+          <option>select your food</option>
+          <option>pizza</option>
+          <option>burger</option>
+          <option>paneer tikka</option>
+        </select>
+        <br /><br />
+        <lable>quantity</lable>
+        <input type="number" min="1" max="6" />
+        <br /><br />
+        <lable>delivery address</lable>
+        <textarea cols="40" rows="6"></textarea>
+        <br /><br />
+        <lable>payment:</lable>
+        <input type="radio" name="payment" />cash
+        <input type="radio" name="payment" />upi
+        <input type="radio" name="payment" />card <br /><br />
+        <input type="submit" value="palce order" />
+      </form>
+    </section>
+    <hr />
+    <footer id="contact">
+      <h3>contact us</h3>
+      <p>Email:foodexpress89@gmail.com</p>
+      <p>phone:7876543212</p>
+    </footer>
+  </body>
+</html>
